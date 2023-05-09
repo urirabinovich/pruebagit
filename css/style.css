@@ -1,0 +1,565 @@
+/* Reset de CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------*/
+
+/* Tipos de Letra*/
+main{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Arimo', sans-serif;
+}
+h4, h5, h6{
+    font-family: 'Rubik', sans-serif;
+}
+
+p, a, form, input, label, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+/*Link sin decoracion*/
+a{
+    text-decoration: none;
+}
+
+/*-------------------------------------*/
+
+/*Margenes de Box*/
+.mc40{
+    margin: 4rem;
+}
+.mc35{
+    margin: 3.5rem;
+}
+
+.mc30{       
+    margin: 3rem;
+}
+.mc25{       
+    margin: 2.5rem;
+}
+.mc20{       
+    margin: 2rem;
+}
+.mc15{       
+    margin: 1.5rem;
+}
+.mc10{
+    margin: 1rem;
+}
+.mc05{
+    margin: 0.5rem;
+}
+
+/*--------------------------------------*/
+
+.mv40{
+    margin: 4rem auto;
+}
+.mv35{
+    margin: 3.5rem auto;
+}
+.mv30{       
+    margin: 3rem auto;
+}
+.mv25{       
+    margin: 2.5rem auto;
+}
+.mv20{       
+    margin: 2rem auto;
+}
+.mv15{       
+    margin: 1.5rem auto;}
+.mv10{       
+    margin: 1.0rem auto;
+}
+.mv05{       
+    margin: 0.5rem auto;
+}
+
+/*Anchos y Altos*/
+
+/*Ancho*/
+.w100{      
+    width: 100%;
+}
+.w95{
+    width: 95%;
+}
+.w90{
+    width: 90%;
+}
+.w85{
+    width: 85%;
+}
+.w80{       
+    width: 80%;
+}
+.w75{
+    width: 75%;
+}
+
+.w70{       
+    width: 70%;
+}
+/*Alto*/
+.h100{      
+    height: 100%;
+}
+.h95{      
+    height: 95%;
+}
+.h90{      
+    height: 90%;
+}
+.h85{      
+    height: 85%;
+}
+.h80{      
+    height: 80%;    
+}
+.h75{      
+    height: 75%;    
+}
+.h70{      
+    height: 70%;    
+}
+
+/*Ancho y Alto*/
+
+.wh100{     
+    width: 100%;    
+    height: 100%;
+}
+.wh95{     
+    width: 95%;    
+    height: 95%;
+}
+.wh90{     
+    width: 90%;    
+    height: 90%;
+}
+.wh85{     
+    width: 85%;    
+    height: 85%;
+}
+.wh80{     
+    width: 80%;    
+    height: 80%;
+}
+.wh75{     
+    width: 75%;    
+    height: 75%;
+}
+
+.wh70{     
+    width: 70%;    
+    height: 70%;
+}
+/*------------------------------------*/
+
+
+/*Colores de Fondo*/
+
+.bkgcol1{
+    background-color: rgb(14, 14, 231);
+}
+
+.bkgcol2{
+    background-color: rgb(31, 31, 129);
+}
+
+.bkgcol3{
+    background-color: rgb(23, 23, 31);
+}
+
+.bkgcol4{
+    background-color: rgb(248, 241, 241);
+}
+
+.bkgcol5{
+    background-color: rgb(226, 183, 183);
+}
+
+/*------------------------------------*/
+
+/* Titulos y Parrafos */
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+    
+h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.1rem;
+}
+h6{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*------------------------------------*/
+
+.main__section-whatsapp{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+.main__section-whatsapp-img{  
+    width: 70px;
+}
+
+
+/*Aplicando Grids al Body*/
+
+.grid-index{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+header{
+    background-color: beige;
+}
+/* Logo Uriel Rabinovich*/
+.header__logo{
+    position: fixed;
+    top: 5px;
+    right: 25px;
+}
+.header__img-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.headnavBar{
+    padding: 10px 10px;
+    margin-top: 25px;
+    background-color:rgb(146, 182, 230);
+    border: 1.5px;
+    border-color: rgb(13, 11, 170);
+    border-style: solid;
+    text-align: center;
+}
+.headnavBar .navSup li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px; 
+}
+
+.headnavBar .navSup li:hover{
+    background-color: rgba(41, 89, 161, 0.267);
+    border-radius: 1px;
+}
+.headnavBar .navSup li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(16, 30, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+} 
+
+
+
+
+
+footer{
+    background-color: beige;
+    margin: 20px;
+    padding: 15px;
+}
+
+footer ul{
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px 10px; 
+}
+
+.footNavbar{
+    background-color:rgb(146, 182, 230);
+    border: 1.5px;
+    border-color: rgb(13, 11, 170);
+    border-style: solid;
+    text-align: center;
+}
+.footnavBar li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footnavBar li:hover{
+    background-color: rgba(41, 89, 161, 0.267);
+    border-radius: 1px;
+}
+.footnavBar li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(16, 30, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.whatsApp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.whatsApp .img_wsp{
+    width: 50px;
+}
+
+figure img{
+    width: 150px;
+    display: flex;
+    margin: auto;
+}
+
+section p{
+    line-height: 2em;
+    text-align: center;
+}
+
+section img{
+    width: 300px;
+    display: flex;
+    margin: auto;
+}
+
+section form{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- Body --- */
+.grid-index/*GRID 3v*/{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    align-content: space-between;}
+
+
+
+/* --- Color --- */
+.bcolgn{    background: #0d0d0d;}
+.bcolgb{    background: #d9d9d9;}
+.bcoln3{    background: #a66503;}
+.coln1{     color: #e88300;}
+.coln2{     color: #f2C08d;}
+.coln3{     color: #a66503;}
+.colv1{     color: #11f05f;}
+.colv2{     color: #8df2a6;}
+.colv3{     color: #65a603;}
+.colv4{     color: #3c6302;}
+.cola1{     color: #3b12f0;}
+.cola2{     color: #9b8df2;}
+.cola3{     color: #0365a6;}
+.cola4{     color: #022963;}
+.colgb{     color: #d9d9d9;}
+.colbn1{    border-color: #e88300;}
+.colbv4{    border-color: #3c6302;}
+
+
+
+/* ------------------------------------
+                HEADER Y FOOTER
+---------------------------------------*/
+
+.header{
+    grid-area: header;
+    height: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr .1fr;
+    grid-template-columns: 1fr 12fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+    "logo titulo extra"
+    "logo nav extra"
+    "bordehed bordehed bordehed";}
+/* NAV */
+.header__nav{ grid-area: nav;}
+.header__ul-list/*FLEX*/{
+    list-style: none;
+    display: flex;
+    align-items: center;}
+.header__a-enlace{
+    font-weight: 150;
+    font-size: 1.2rem;
+    padding: 12px;
+    margin: 5px;
+    text-decoration: none;}
+.header__a-enlace:hover{
+        color: #1d1c1b;
+        background-color: #f09712;
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 8px;}
+/* LOGO */
+.header__logo{grid-area: logo;}
+/* OTROS */
+.header__title{grid-area: titulo;}
+.header__extra{grid-area: extra;}
+/* BORDE INF */
+.header__bordehed{
+    grid-area: bordehed;
+    background: #2ef273;
+    background: linear-gradient(90deg, #2ef273 89%, #2ef273 92%, #8df2a6 93%, #8df2a6 96%, #d9d9d9 97%);}
+
+.footer/*FLEX*/{
+    grid-area: footer;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;}
+.footer__s-redes{   margin: 0 20px;}
+.footer__a-enlace{  margin: 0 2px;}
+.footer__p-derechos{margin: 0 2px;}
+
+/* ------------------------------------
+                ESPECIALES
+---------------------------------------*/
+
+
+
+/* !------------------------------------- */
+/* !          ESTILOS GENERALES           */
+/* !------------------------------------- */
+
+/* ------------------------------------
+                            MAIN
+---------------------------------------*/
+.fx-main{
+    grid-area: main;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/}
+
+/* CAJAS */
+.fx-vert{
+    display: flex;
+    flex-direction: column;}
+.fx-inverso{
+    display: flex;
+    flex-direction: column-reverse;}
+.fx-vert--cent{
+    align-items: center;}
+.fx-vert__p-txt{
+    font-size: 1rem;  }
+.fx-vert__p-txt-g{
+    font-size: 1.5rem;
+    font-weight: 200;  }
+.fx-dgris{
+    padding: 2.5rem;
+    background: #cccccc;
+    background: linear-gradient(41deg, #cccccc 0%, #ffffff 20%, #f2f2f2 83%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.img-float__img{
+    float: left;
+    width: 300px;
+    margin: 10px;}
+
+.fondo-c-imagen{
+    margin: 2rem auto;
+    height: 600px;
+    background-image: url(../img/fondos/combinado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;}
+.fondo-c-imagen__d-transparencia{
+    background: rgb(0,0,0);
+    background: linear-gradient(52deg, rgba(0,0,0,0.2) 0%, rgba(29, 28, 27, 0.5) 35%, rgba(60,60,60,0.2) 100%);
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+/* TEXTO */
+.h1-c-borde{
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px;
+    border-style: solid;
+    font-size: 4rem;
+    background-color: #0d0d0dad;}
+
+/* IMAGEN */
+.programas{         text-align: center;}
+.programas__i-logo{ width: 150px;}
+
+/* FORM */
+.fx-form-generico{
+    display: flex;
+    justify-content: center;
+    /*align-items:normal;*/}
+.fx-form-generico__titulo{  
+    margin: 25px;}
+.fx-form-generico__form{
+    margin: 10px;
+    width: 400px;
+    padding: 20px;
+    color: #d9d9d9;
+    display: flex;
+    flex-direction: column;}
+.fx-form-generico__subcontenedor{
+    width: 300px;}
+.fx-form-generico__form *{
+    padding: 2px;}
+    
